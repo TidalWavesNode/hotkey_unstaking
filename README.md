@@ -1,17 +1,17 @@
-##Install expect
+## Install expect
 
 apt-get install expect
 
-##Download unstake.expect
+## Download unstake.expect
 
 wget https://raw.githubusercontent.com/TidalWavesNode/hotkey_unstaking/main/unstake.expect
 
-##Modify based on your individual wallet
+## Modify based on your individual wallet
 
-##Make Executable
+## Make Executable
 
 chmod +x unstake.expect
 
-##Run script
+## Run script
 
 ./unstake.expect
