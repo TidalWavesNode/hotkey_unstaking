@@ -4,7 +4,7 @@ apt-get install expect
 
 ##Download unstake.expect
 
-wget URL
+wget https://raw.githubusercontent.com/TidalWavesNode/hotkey_unstaking/main/unstake.expect
 
 ##Modify based on your individual wallet
 
