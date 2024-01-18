@@ -6,7 +6,7 @@
 
     wget https://raw.githubusercontent.com/TidalWavesNode/hotkey_unstaking/main/unstake.expect
 
-## Modify based on your individual wallet
+### Modify based on your individual wallet
 
 ## Make Executable
 
