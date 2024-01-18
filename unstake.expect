@@ -1,0 +1,20 @@
+#!/usr/bin/expect -f
+
+spawn btcli stake remove --wallet.name default --wallet.hotkey default
+
+# Expect the prompt and respond with 'y'
+expect "Unstake all Tao from:"
+send "y\r"
+
+expect "Do you want to unstake from the following keys:"
+send "y\r"
+
+expect "Do you want to unstake:"
+send "y\r"
+
+sleep 2
+
+# Add additional hotekeys as needed!
+
+# Wait for the command to complete
+expect eof
